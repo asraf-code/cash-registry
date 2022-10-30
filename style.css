@@ -1,0 +1,21 @@
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 70vw
+}
+
+.change-table {
+    width: 50%;
+    text-align: justify;
+    border-collapse: collapse;
+    margin: auto;
+  }
+
+th, td {
+  border: 2px solid pink;
+  width: 0%;
+  border-collapse: collapse;
+  padding: 0.4rem;
+}
