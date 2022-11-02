@@ -94,6 +94,25 @@ th, td {
   display: block;
 }
 
+#btn-nav {
+  background: var(--primary-color);
+  border: none;
+  color: #fff;
+  padding: 0.7rem 1rem;
+  border-radius: 0.5rem;
+  font-size: large;
+  cursor: pointer;
+  outline: #fff;
+  margin: auto;
+  display: block;
+  
+}
+
+nav {
+  margin-bottom: 3rem;
+  max-width: 53vh;
+}
+
 #error-message {
   display: block;
   font-size: larger;
