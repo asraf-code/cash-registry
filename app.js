@@ -9,9 +9,12 @@ const noteDenominatons = [2000, 500, 100, 20, 10, 5, 1];
 
 
 checkButton.addEventListener("click", function processBillCashAmount() {
+    const billValue = Number(billAmount.value);
+    const cashValue = Number(cashGiven.value);
+    
     hideMessage();
-    if (billAmount.value > 0) {
-        if (cashGiven.value >= billAmount.value) {
+    if (billValue > 0) {
+        if (cashValue >= billValue) {
             const returningAmount = cashGiven.value - billAmount.value;
             calculateChange(returningAmount);
         } else {
