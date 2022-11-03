@@ -20,7 +20,7 @@ body {
   text-align: center;
   display: flex;
   flex-direction: column;
-  padding: 5rem
+  padding: 5rem 5rem 1rem 5rem
   
 }
 
@@ -142,10 +142,21 @@ img {
 
 footer {
   text-align: center;
-  position: absolute;
+  position: relative;
   bottom: 0;
   left: 0;
   right: 0;
+  height: auto;
+  padding-top: 22rem;
+
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
 }
 
 ul {
@@ -159,4 +170,17 @@ ul {
 .footer-text{
   
   text-align: center;
+}
+
+
+@media (max-width:660px) {
+.change-table {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  width: 10vw;
+  text-align: center;
+  
+
+}
 }
