@@ -178,8 +178,9 @@ ul {
   display: flex;
   flex-flow: column;
   align-items: center;
-  width: 10vw;
+  width: 20vw;
   text-align: center;
+
   
 
 }
